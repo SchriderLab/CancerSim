@@ -1,0 +1,38 @@
+// Initial random seed:
+2129229995277
+
+// RunInitializeCallbacks():
+initializeSLiMModelType(modelType = 'nonWF');
+initializeMutationType(1, 0.5, "f", 0.01);
+initializeMutationType(2, 0.5, "f", 0.1);
+initializeMutationType(5, 0.5, "f", 0.5);
+initializeMutationType(3, 0.5, "f", 0);
+initializeMutationType(4, 1, "f", -10);
+initializeGenomicElementType(1, c(m1, m2, m3), c(0, 0.001, 0));
+initializeGenomicElement(g1, 0, 2999999999);
+initializeMutationRate(2e-12);
+initializeRecombinationRate(0);
+
+// Starting run at generation <start>:
+1 
+
+// Initial random seed:
+1664339995333
+
+// RunInitializeCallbacks():
+initializeSLiMModelType(modelType = 'nonWF');
+initializeMutationType(1, 0.5, "f", 0.01);
+initializeMutationType(2, 0.5, "f", 0.1);
+initializeMutationType(5, 0.5, "f", 0.5);
+initializeMutationType(3, 0.5, "f", 0);
+initializeMutationType(4, 1, "f", -10);
+initializeGenomicElementType(1, c(m1, m2, m3), c(0, 0.001, 0));
+initializeGenomicElement(g1, 0, 2999999999);
+initializeMutationRate(2e-12);
+initializeRecombinationRate(0);
+
+// Starting run at generation <start>:
+1 
+
+#OUT: 20000 F
+Mutations:
